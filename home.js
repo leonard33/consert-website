@@ -105,7 +105,7 @@ modalClose.addEventListener('click', closeModal);
 
 const readLess = document.querySelector('.read-less');
 const readMore = document.querySelector('.read-more');
-function readMoreText (event) {
+function readMoreText(event) {
   if (event.target) {
     document.querySelector('.contestants').style.overflow = 'visible';
     readMore.style.display = 'none';
