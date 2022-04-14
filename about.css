@@ -60,7 +60,7 @@ h1 {
     justify-content: center;
     line-height: 40px;
     width: 90vw;
-    margin-top: 20px;
+    margin-top: 40px;
     align-items: center;
     align-self: center;
     text-align: center;
@@ -257,6 +257,283 @@ h1 {
     font-size: 12px;
 }
 
+.logo-info {
+    display: none;
+}
+
+.site-logo img {
+    display: none;
+}
+
+.top-head {
+    display: none;
+}
+
+.close-btn {
+    position: fixed;
+    font-size: 50px;
+    font-weight: 900;
+    right: 10px;
+    z-index: 10;
+    top: 0;
+    right: 20px;
+    color: white;
+    display: none;
+}
+
+.menu-sub {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    color: white;
+    z-index: 9;
+    padding-top: 50px;
+    display: none;
+}
+
+.fa {
+    display: none;
+}
+
+.menu-sub ul li a {
+    font-size: 24px;
+    font-weight: 900;
+    display: block;
+    margin: 20px 20px;
+    text-decoration: none;
+    color: #d3d3d3;
+    padding: 10px 0;
+    font-family: 'lato', sans-serif;
+    border-bottom: 1px solid white;
+}
+
 @media only screen and (min-width: 768px) {
+    .top-head {
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 32px;
+        z-index: 10;
+        display: flex;
+        padding-top: 1px;
+        flex-direction: row;
+        background-color: #272a31;
+    }
+
+    .top-head ul {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        margin-left: 76.2%;
+    }
+
+    .fa {
+        display: flex;
+        color: #d3d3d3;
+        font-size: 12px;
+    }
+
+    .top-head ul li {
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: 700;
+        font-family: 'lato', sans-serif;
+        color: #d3d3d3;
+        margin-left: 15px;
+    }
     
+    .top-head ul li a {
+        text-decoration: none;
+        color: #d3d3d3;
+    }
+
+    .menu-nav {
+        position: sticky;
+        left: 0;
+        top: 30px;
+        height: 65px;
+        width: 100vw;
+        z-index: 10;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    }
+
+    .menu-sub ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu-sub ul li {
+        text-decoration: none;
+        list-style-type: none;
+        margin-right: 10px;
+    }
+
+    .menu-sub ul li a {
+        text-decoration: none;
+        color: #272a31;
+        font-size: 16px;
+        font-family: 'lato', sans-serif;
+        font-weight: 500;
+    }
+
+    .menu-sub {
+        position: sticky;
+        z-index: 10;
+        width: 90vw;
+        margin: auto;
+        height: 45px;
+        padding-top: 5px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: white;
+        justify-content: space-between;
+    }
+
+    .site-logo {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+    }
+
+    .site-logo img {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    .dates {
+        width: 52vw;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .menu-sub ul li:nth-child(6) a {
+       border: 2px solid red;
+       justify-content: center;
+       align-items: center;
+       padding: 10px;
+       color: #ec5242;
+    }
+
+    #logo {
+        flex-direction: column;
+    }
+
+    .past-consert {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 40px;
+    }
+
+    .past-holder1 {
+        width: 40vw;
+        height: 40vh;
+        object-fit: contain;
+        background-size: cover;
+        background-image: url('./assets/Festival_crowd.jpg');
+        background-position-x: center;
+        background-position-y: center;
+        margin-bottom: 20px;
+    }
+    
+    .past-holder2 {
+        width: 40vw;
+        height: 40vh;
+        object-fit: contain;
+        background-size: cover;
+        background-image: url('./assets/rockband.jpg');
+        background-position-x: center;
+        background-position-y: center;
+        margin-bottom: 20px;
+    }
+
+    .overlay {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+        height: 40vh;
+        background: rgba(236,82,66,0.7);
+    }
+    
+    .overlay h4 {
+        font-family: 'lato', sans-serif;
+        font-size: 100%;
+    }
+    
+    .overlay h3 {
+        font-family: 'ct', sans-serif;
+        font-size: 100%;
+    }
+
+    .footer img {
+        width: 20%;
+        height: 20%;
+        margin-left: 20rem;
+    }
+    
+    .logo-holder {
+        width:40vw;
+        height: 20vw;
+        object-fit: contain;
+        align-self: center;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 0 20px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 24px 0px, rgba(0, 0, 0, 0.1) 0px 0px 0px 2px;
+    }
+    
+    .logo-holder img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo-info h3 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 17px;
+        font-weight: 700;
+        font-family:'Lato', sans-serif;
+    }
+    
+    .logo-info img {
+        border: 1px solid #ec5242;
+        background: #ec5242;
+        width: 10vw;
+        align-self: center;
+    }
+    
+    .logo-info h4 {
+        font-size: 14px;
+        width: 90vw;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        font-weight: 400;
+        font-family:'Lato', sans-serif;
+    }
+
+    .logo-info {
+        margin-top: 20px;
+        width: 100vw;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px inset;
+    }
 }

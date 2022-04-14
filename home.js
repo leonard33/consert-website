@@ -102,3 +102,23 @@ function closeModal (event) {
     }
 }
 modalClose.addEventListener('click', closeModal);
+
+const readLess = document.querySelector('.read-less');
+const readMore = document.querySelector('.read-more');
+function readMoreText (event) {
+    if(event.target) {
+        document.querySelector('.contestants').style.overflow = 'visible';
+        readMore.style.display = 'none';
+        readLess.style.display = 'block';
+    }
+}
+readMore.addEventListener('click', readMoreText);
+
+function readless (event) {
+    if(event.target) {
+        document.querySelector('.contestants').style.overflow = 'hidden';
+        readMore.style.display = 'block';
+        readLess.style.display = 'none';
+    }
+}
+readLess.addEventListener('click', readless);
