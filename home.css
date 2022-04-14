@@ -107,7 +107,8 @@ h1 {
 .proj {
   width: 90vw;
   margin-top: 10px;
-   /* padding-top: -10px; */
+
+  /* padding-top: -10px; */
   margin-bottom: 8px;
   align-self: center;
   margin-left: 10px;
@@ -255,7 +256,8 @@ h1 {
 
 .patner {
   width: 100vw;
-   /* display: flex; */
+
+  /* display: flex; */
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -432,15 +434,10 @@ h1 {
     width: 100vw;
     height: 500px;
     background-image: url('./assets/consertimg.jpg');
-    opacity: 0.8;
-  }
-
-  .read-more {
-      display: none;
   }
 
   .read-less {
-      display: none;
+    display: none;
   }
 
   .heading {
@@ -453,9 +450,9 @@ h1 {
     padding: 10px;
     line-height: 20px;
     margin-left: 12rem;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0 1px 2px 0, rgba(60, 64, 67, 0.15) 0 2px 6px 2px;
   }
-    
+
   .top-head {
     position: sticky;
     top: 0;
@@ -491,7 +488,7 @@ h1 {
     color: #d3d3d3;
     margin-left: 15px;
   }
-    
+
   .top-head ul li a {
     text-decoration: none;
     color: #d3d3d3;
@@ -505,7 +502,7 @@ h1 {
     width: 100vw;
     z-index: 10;
     background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 6px -1px, rgba(0, 0, 0, 0.06) 0 2px 4px -1px;
   }
 
   .menu-sub ul {
@@ -618,7 +615,7 @@ h1 {
     margin-top: 30px;
     background-color: #333;
   }
-    
+
   .patner img {
     width: 15vw;
     height: 20vh;
@@ -635,7 +632,6 @@ h1 {
     justify-content: center;
     width: 100vw;
     height: 10rem;
-    justify-content: space-around;
     object-fit: contain;
   }
 
@@ -667,9 +663,10 @@ h1 {
     width: 188px;
     border: none;
     display: none;
-     cursor: pointer;
+    cursor: pointer;
     background: white;
-    /*background-color: rgba(236,82,66, 0.3);*/
+
+    /* background-color: rgba(236,82,66, 0.3); */
   }
 
   .contest-info:hover {
@@ -677,7 +674,7 @@ h1 {
     cursor: pointer;
   }
 
-  .contest-info:hover~.contest-btn {
+  .contest-info:hover ~ .contest-btn {
     display: block;
     cursor: pointer;
   }
@@ -751,5 +748,5 @@ h1 {
 
   ::-webkit-scrollbar {
     display: none;
-    }
+  }
 }
