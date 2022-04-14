@@ -273,7 +273,6 @@ h1 {
 }
 
 .footer {
-  display: flex;
   align-items: center;
   width: 100vw;
   display: none;
@@ -384,7 +383,7 @@ h1 {
 .modal-image-holder img {
   width: 100%;
   height: 100%;
-  border: none;  
+  border: none;
 }
 
 .modal-content {
@@ -392,7 +391,6 @@ h1 {
   height: 60%;
   align-self: center;
   display: flex;
-  align-self: center;
   flex-direction: column;
   background-color: white;
 }
