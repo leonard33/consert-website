@@ -1,8 +1,7 @@
 # consert-website
 
-# 
 
- This is a Microverse website consert project.
+ This is a Microverse consert website project.
  
 ## Built With
 
