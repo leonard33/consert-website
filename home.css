@@ -107,7 +107,7 @@ h1 {
 .proj {
   width: 90vw;
   margin-top: 10px;
-  /*padding-top: -10px;*/
+   /* padding-top: -10px; */
   margin-bottom: 8px;
   align-self: center;
   margin-left: 10px;
@@ -246,6 +246,7 @@ h1 {
   margin-left: 10px;
   font-size: 20px;
   color: #ec5242;
+  display: none;
 }
 
 .patners {
@@ -254,7 +255,7 @@ h1 {
 
 .patner {
   width: 100vw;
-  display: flex;
+   /* display: flex; */
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -298,7 +299,6 @@ h1 {
   position: fixed;
   font-size: 50px;
   font-weight: 900;
-  right: 10px;
   z-index: 10;
   top: 0;
   right: 20px;
@@ -314,10 +314,6 @@ h1 {
   color: white;
   z-index: 9;
   padding-top: 50px;
-  display: none;
-}
-
-.fa {
   display: none;
 }
 
@@ -347,7 +343,7 @@ h1 {
   cursor: pointer;
 }
 
-.contest-info:hover~.contest-btn {
+.contest-info:hover ~ .contest-btn {
   display: block;
   cursor: pointer;
 }
