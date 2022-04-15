@@ -216,11 +216,13 @@ h1 {
 .overlay h4 {
   font-family: 'lato', sans-serif;
   font-size: 100%;
+  color: #d3d3d3;
 }
 
 .overlay h3 {
   font-family: 'ct', sans-serif;
   font-size: 100%;
+  color: #d3d3d3;
 }
 
 .patners {
@@ -482,12 +484,14 @@ h1 {
 
   .overlay h4 {
     font-family: 'lato', sans-serif;
-    font-size: 100%;
+    font-size: 120%;
+    color: #d3d3d3;
   }
 
   .overlay h3 {
     font-family: 'ct', sans-serif;
-    font-size: 100%;
+    font-size: 120%;
+    color: #d3d3d3;
   }
 
   .footer img {
