@@ -8,7 +8,13 @@
 - HTML
 - css
 - javascript
-## Live Demo (not available)
+## Live Demo 
+[Live Demo Link](https://leonard33.github.io/consert-website/)
+
+
+## Live video demo
+[Video Demo Link](https://www.loom.com/share/e38c3a52765743e8a6c3cdee97c97aeb)
+
 
 
 ## Getting Started
@@ -58,6 +64,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- [Cindy Shin](https://www.behance.net/adagio07)
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc

@@ -547,4 +547,21 @@ h1 {
     justify-content: center;
     box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px 0 inset;
   }
+
+  .patner {
+    width: 100vw;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: #333;
+  }
+
+  .patner img {
+    width: 15vw;
+    height: 20vh;
+    object-fit: contain;
+  }
+
 }
