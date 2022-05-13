@@ -2,6 +2,8 @@
 
 
  This is a Microverse consert website project.
+ Here one can find all the information about the consert project and the consert itself the people welcomed to perform in the consert.
+
  
 ## Built With
 
